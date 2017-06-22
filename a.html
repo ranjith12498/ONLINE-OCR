@@ -1,0 +1,59 @@
+<html>
+<head>
+
+<center>
+<link rel="stylesheet" type="text/css" href="ass.css">
+<p1>OCR</p1><br>
+<!--<img src="/home/itlab/OCR-2.jpg" height="344" width="544">--><br>
+</center>
+
+
+
+<title>page 1</title>
+
+</head>
+<body>
+<div class="a">
+<h1>LOGIN</h1>
+
+<form>
+ <h> Username:</h><br>
+  <input type="text" placeholder="Enter Username" id="uname" name="Username" required>
+  <br>
+  <h>Password:</h><br>
+  <input type="password" placeholder="Enter Password" id="pass" name="Password" required>
+  </div>
+<div class="check"><input type="checkbox" checked=checked>remember me</div>
+<div class="d">
+<button type="button" onclick="check()"> SIGN IN</button>
+</div><br><br>
+Not having account
+<a href="c.html">SignUp</a> here
+</form> 
+<iframe id="b" width="100%" height="120" src="https://in.bookmyshow.com/chennai/movies" >
+</iframe></div>
+<div class="e">
+<p title="OCR">
+<a href="https://en.wikipedia.org/wiki/Optical_character_recognition">About OCR</a>
+ </p>
+<script>
+function check(){
+var uname1=document.getElementById("uname").value;
+var uname2="ranjith";
+var count=0;
+var pass1=document.getElementById("pass").value;
+var pass2="aa";
+if(uname1==uname2)
+count++;
+if(pass1==pass2)
+count++;
+if(count==2)
+window.location.href="b.html";
+else
+alert("Invalid Useranme or Password");
+
+}
+</script>
+
+</body></h1>
+</html>

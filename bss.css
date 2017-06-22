@@ -1,0 +1,25 @@
+body{
+background-image:url("MAC.jpg");
+background-position:center;
+background-size:100%;}
+p6{
+color:white;}
+#ss{
+font-size:30px;
+border:2px solid #7FFFD4;
+border-radius:25px;
+background-color:rgba(255, 0, 0, 0.3);
+padding:20px;
+}
+video{
+margin-left:5%;}
+
+#oo {
+border-radius: 25px;
+border:2px solid #73AD21;
+padding: 10px; 
+width: 500px;
+height: 300px;    
+}
+.a{
+margin-left:20%;}

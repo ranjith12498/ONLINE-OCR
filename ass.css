@@ -1,0 +1,37 @@
+h1{
+color:red;
+text-align:left;
+font-size:55;
+margin-left:2.5%;
+}
+p1{
+color:white;}
+
+body{
+    background-image:url("apple.jpg");
+border:2px solid white;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+background-size:100%;
+
+}.check{
+margin-left:10%}
+
+
+
+
+.a{
+font-family:courier;
+text-align:left;
+margin-left:10%;
+font-size:35;
+}
+
+.d{
+text-align:left;
+font-family:courier;
+margin-left:15%
+}
+#b{
+margin-top:5%;}
